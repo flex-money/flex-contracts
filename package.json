@@ -1,0 +1,36 @@
+{
+  "name": "flex-contracts",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/flex-money/flex-contracts.git"
+  },
+  "keywords": [],
+  "author": "flex-money",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/flex-money/flex-contracts/issues"
+  },
+  "homepage": "https://flexmoney.io",
+  "devDependencies": {
+    "@nomiclabs/hardhat-ethers": "^2.0.3",
+    "@nomiclabs/hardhat-waffle": "^2.0.1",
+    "@openzeppelin/contracts": "^3.4.2",
+    "@openzeppelin/hardhat-upgrades": "^1.12.0",
+    "chai": "^4.3.6",
+    "dotenv": "^14.3.2",
+    "ethereum-waffle": "^3.4.0",
+    "ethers": "5.0.32",
+    "hardhat": "^2.7.0",
+    "prettier": "^2.5.1",
+    "prettier-plugin-solidity": "^1.0.0-beta.19"
+  },
+  "dependencies": {
+    "hardhat-klaytn-patch": "^0.0.2"
+  }
+}
